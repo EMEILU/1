@@ -1,0 +1,54 @@
+.password-container {
+  position: relative;
+  width: 300px;
+  margin: 2rem auto;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.input-wrapper input {
+  width: 100%;
+  padding: 10px 40px 10px 10px; /* space for icon */
+  font-size: 1rem;
+}
+
+.toggle-visibility {
+  position: absolute;
+  left: 300px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #444; /* Change to suit your theme */
+  z-index: 10;
+}
+
+.strength-indicator {
+  width: 350px;
+  margin-top: 10px;
+  padding-left: 1px;
+}
+.strength-indicator .strength {
+  height: 5px;
+  margin-bottom: 5px;
+  transition: width 0.3s ease-in-out, background-color 0.3s;
+}
+
+.strength-indicator .weak {
+  width: 30%;
+  background-color: red;
+}
+
+.strength-indicator .medium {
+  width: 60%;
+  background-color: orange;
+}
+
+.strength-indicator .strong {
+  width: 100%;
+  background-color: green;
+}
