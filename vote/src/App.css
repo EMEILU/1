@@ -1,0 +1,70 @@
+/* VotingApp.css */
+
+.voting-app {
+  padding: 2rem;
+  background-color: #f3f4f6;
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.reset-button {
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.reset-button:hover {
+  background-color: #dc2626;
+}
+
+.candidate-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.leading {
+  border: 4px solid #22c55e;
+}
+
+.candidate-name {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.candidate-votes {
+  font-size: 1.125rem;
+}
+
+.vote-button {
+  padding: 0.5rem 1rem;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.vote-button:hover {
+  background-color: #2563eb;
+}
+
+.leader-text {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
